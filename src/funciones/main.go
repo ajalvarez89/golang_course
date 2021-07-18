@@ -25,5 +25,5 @@ func main() {
 
 	value1, value2 := doubleReturn(2)
 	// value1, _ := doubleReturn(2) - descarta segundo valor
-	fmt.Println("Value1:", value1, "Value2:", value2)
+	fmt.Println("value_1: ", value1, "value_2:", value2)
 }
