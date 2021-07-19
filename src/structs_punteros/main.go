@@ -16,6 +16,10 @@ func (myPc *pc) duplicateRam() {
 	myPc.ram = myPc.ram * 2
 }
 
+func (myPc pc) String() string {
+	return fmt.Sprintf("Tengo %d GB de RAM, %d GB de Disco y es una %s", myPc.ram, myPc.disk, myPc.brand)
+}
+
 func main() {
 	a := 50
 	b := &a
